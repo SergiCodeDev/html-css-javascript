@@ -1,0 +1,121 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;900&display=swap');
+
+/* font-family: 'Rubik', sans-serif; */
+
+h1 {
+    color: rgb(66, 255, 138);
+    font-family: 'Rubik', sans-serif;
+    display: block;
+    font-size: 120px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding: 0px;
+    margin-left: 2.5%;
+
+}
+
+p {
+    color: rgb(255, 255, 255);
+    background-color: coral;
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+html {
+    background-color: rgb(252, 241, 227);
+    font-family: 'Rubik', sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(108, 255, 194);
+    font-family: 'Rubik', sans-serif;
+    display: block;
+    font-size: 64px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+main p>b {
+    color: rgb(65, 255, 255);
+}
+
+#parrafo4 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 191, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.bordes {
+    text-align: center;
+    border-radius: 10px;
+    border: solid;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    background-color: coral;
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sub {
+    border-color: rgb(255, 0, 0);
+    color: rgb(255, 23, 197);
+    background-color: rgb(253, 255, 127);
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.barrainicio {
+    background-color: rgb(180, 110, 255);
+}
+
+.barrainicio-abajo {
+    background-color: rgb(33, 248, 255);
+    color: yellow;
+}
+
+.cajas { 
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    display: flex;
+}
+
+.tcajas{
+    flex: 1 1 600px;
+    margin: 30px;
+    border: solid;
+    border-color: 15px rgb(211, 194, 163) !important;
+    border-radius: 30px;
+    display: block;
+    margin-block-start: 3em;
+    margin-block-end: 3em;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    box-sizing: inherit;
+}
