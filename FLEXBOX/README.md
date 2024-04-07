@@ -1,3 +1,13 @@
+# FLEXBOX
+
+## Portada
+
+<img src="https://github.com/SergiCodeDev/html-css-javascript/blob/main/FLEXBOX/README/portada.PNG?raw=true" alt="portada">
+
+## Sobre nosotros
+
+<img src="https://github.com/SergiCodeDev/html-css-javascript/blob/main/FLEXBOX/README/sobrenosotros.PNG?raw=true" alt="sobre nosotros">
+
 ## Este archivo contiene LICENCIAS de:
 
 > * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
