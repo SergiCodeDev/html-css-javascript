@@ -6,7 +6,7 @@
 
 ## Sobre nosotros
 
-<img src="https://github.com/SergiCodeDev/html-css-javascript/blob/main/FLEXBOX/README/sobrenosotros.PNG?raw=true" alt="sobre nosotros">
+<img src="https://github.com/SergiCodeDev/html-css-javascript/blob/main/FLEXBOX/README/sobrenosotros.png?raw=true" alt="sobre nosotros">
 
 ## Este archivo contiene LICENCIAS de:
 
