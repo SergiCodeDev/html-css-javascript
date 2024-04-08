@@ -1,12 +1,12 @@
-# FLEXBOX
+# NATURALEZA
 
 ## Portada
 
-<img src="https://github.com/SergiCodeDev/html-css-javascript/blob/main/FLEXBOX/README/portada.PNG?raw=true" alt="portada">
+<img src="https://github.com/SergiCodeDev/html-css-javascript/blob/main/NATURALEZA/README/quehacemosnosotros.PNG?raw=true" alt="portada">
 
 ## Que hacemos nosotros
 
-<img src="https://github.com/SergiCodeDev/html-css-javascript/blob/main/FLEXBOX/README/quehacemosnosotros.PNG?raw=true" alt="que hacemos nosotros">
+<img src="https://github.com/SergiCodeDev/html-css-javascript/blob/main/NATURALEZA/README/quehacemosnosotros.PNG?raw=true" alt="que hacemos nosotros">
 
 ## Este archivo contiene LICENCIAS de:
 
