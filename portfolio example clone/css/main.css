@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin-inline: 22%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+.header-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.h-up {
+    display: flex;
+    flex-direction: row;
+}
+
+.h-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h-foto {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.h-foto>img {
+    width: 200px;
+    aspect-ratio: 4/4;
+    border-radius: 8px;
+}
+
+.h-text>h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.h-text>h2 {
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.h-text>h2 {
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.h-text>p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.mail {
+    color: blue;
+    padding-bottom: 5px;
+}
+
+.mail>i {
+    color: rgb(53, 53, 53);
+}
+
+.mail:hover {
+    color: rgb(109, 109, 255);
+}
+
+.mail:hover>i {
+    color: rgb(96, 96, 96);
+}
+
+.x {
+    color: blue;
+}
+
+.x>i {
+    color: #00acee;
+}
+
+.x:hover {
+    color: rgb(109, 109, 255);
+}
+
+.x:hover>i {
+    color: #3cb2e1;
+}
+
+
+
+.github {
+    color: blue;
+}
+
+.github>i {
+    color: #000000;
+}
+
+.github:hover {
+    color: rgb(109, 109, 255);
+}
+
+.github:hover>i {
+    color: #333333;
+}
+
+.separar {
+    display: flex;
+    column-gap: 10px;
+}
+
+.h-fondo-caja {
+    background-color: rgba(127, 255, 212, 0.326);
+    padding-inline: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.skills>h3 {
+    color: orange;
+    text-transform: uppercase;
+}
+
+.skills>div {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.414);
+    content: "";
+    border-radius: 5px;
+}
+
+.skills-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.skills-box>div>h4 {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.skills-box>div>p {
+    padding-left: 5px;
+    margin: 0;
+    font-style: italic;
+    /* font-style: oblique; */
+}
+
+.d-lines {
+    width: 60%;
+    height: 8px;
+    outline: 1px solid rgba(0, 0, 0, 0.188);
+    content: "";
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.d-lines+div {
+
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills-box>div>div>p {
+    background-color: rgba(127, 174, 255, 0.326);
+    margin: 0;
+    padding: 5px;
+}
+
+
+
+.trabajos {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    column-gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 6px;
+}
+
+.trabajos>h3 {
+    color: orange;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+
+.trabajos>div {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.414);
+    content: "";
+    border-radius: 5px;
+}
+
+.info-t {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 4px;
+}
+
+.info-t>p{
+    font-weight: 800;
+    margin: 0;
+}
+.info-t>p>span{
+    font-weight: normal;
+}
+
+.info-t>p + p{
+    font-size: 1.08rem;
+}
+
+.c-trabajos>a{
+    color: rgb(68, 68, 68);
+
+}
+.c-trabajos>a:hover{
+    color: rgb(108, 108, 108);
+    
+}
+.c-trabajos>ul{
+    padding-left: 16px;
+
+}
+
+
+@media (min-width: 1200px) {
+
+    body {
+        margin-inline: 24%;
+    }
+
+}
