@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* Si estuvieran en el directorio fonts los tipos de letras */
+/* 
+@font-face {
+    font-family: "Acknow";
+    src:
+        url("../fonts/Acknowledgement-webfont.eot") format("eot"),
+        url("../fonts/Acknowledgement-webfont.svg") format("svg"),
+        url("../fonts/Acknowledgement-webfont.ttf") format("ttf"),
+        url("../fonts/Acknowledgement-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "League";
+    src:
+        url("../fonts/League_Gothic-webfont.eot") format("eot"),
+        url("../fonts/League_Gothic-webfont.svg") format("svg"),
+        url("../fonts/League_Gothic-webfont.ttf") format("ttf"),
+        url("../fonts/League_Gothic-webfont.woff") format("woff");
+} 
+*/
+
+h1 {
+    /* font-family: "Acknow", Arial, sans-serif; */
+    font-family: "Lobster", sans-serif;
+
+}
+
+label {
+    /* font-family: "League", Arial, sans-serif; */
+    font-family: "League Gothic", sans-serif;
+
+}
+
+.btn-materialize {
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: .007em;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #3f51b5;
+    border: none;
+    padding: 10px 25px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-materialize:hover {
+    background-color: #303f9f;
+}
+
+input:focus {
+    background-color: #484848;
+    color: #fff;
+}
+
+.requierecampo {
+    background: url("../imgs/required.png") no-repeat;
+    background-position: right center;
+
+
+}
+
+.requierecampo:focus:valid {
+    background: #484848 url("../imgs/valid.png") no-repeat;
+    background-position: right center;
+}
+
+.requierecampo:focus:invalid {
+    background: #484848 url("../imgs/invalid.png") no-repeat;
+    background-position: right center;
+}
+
+.fondo-h1 {
+    position: relative;
+}
+
+.fondo-h1::after {
+    position: absolute;
+    content: "";
+    background-image: url(../imgs/bg-formtitle-left.png);
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-position: right 5px;
+}
+
+.fondo-h1::before {
+    position: absolute;
+    content: "";
+    background-image: url(../imgs/bg-formtitle-right.png);
+    z-index: 999;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-position: left 5px;
+}
