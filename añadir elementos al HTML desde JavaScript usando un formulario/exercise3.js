@@ -22,7 +22,7 @@ bodycard.className = "card-body";
 let titulo = document.createElement("h4")
 titulo.className = "card-title";
 titulo.textContent = form.name.value;
-let descripcion = document.createElement("h4")
+let descripcion = document.createElement("p")
 descripcion.className = "card-text";
 descripcion.textContent = form.description.value;
 
