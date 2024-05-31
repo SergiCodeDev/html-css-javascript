@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Camiseta",
+        "precio": 20
+    },
+    {
+        "nombre": "Pantalón",
+        "precio": 40
+    },
+    {
+        "nombre": "Zapatos",
+        "precio": 60
+    }
+]
